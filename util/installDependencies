@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Install dependencies
+
+if [ ! -d "venv" ]; then
+    python3 -m venv venv
+fi
+
+source venv/bin/activate
+
+pip install selenium
+pip install BeautifulSoup4
+pip install pandas
+
+echo
+echo "Dependencies installed successfully!"
+echo
+
+desactivate
