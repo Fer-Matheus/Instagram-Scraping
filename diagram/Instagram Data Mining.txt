@@ -1,0 +1,8 @@
+title Mineração de dados do Instagram 
+materialdesignicons F02FE Instagram
+script->Instagram:Efetuar login (essencial para evitar suspeitas pelo instagram)
+note over script,Instagram: Usando a lib instaloader\nque serve como base para\ntoda a comunicação
+Instagram ->script: Um contexto para obtenção dos dados
+script->Instagram: Requisição quanto as informações não sensíveis do perfil escolhido (username, bio e followers)
+Instagram ->script:Informações não sensíveis retornadas.
+note over OBS: Até o momento, não foi possível acessar informações quanto ao endereço e o número do perfil
