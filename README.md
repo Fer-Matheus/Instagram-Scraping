@@ -20,4 +20,5 @@ In order to facilitate the installation process, there is a powershell and bash 
  ./util/installDependencies
  ```
 
- 
+ ## A diagram for the flow current
+ ![diagram](diagram/Instagram%20Data%20Mining.png)
